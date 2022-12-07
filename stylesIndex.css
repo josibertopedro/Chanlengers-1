@@ -1,0 +1,125 @@
+:root {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-color: hsl(225, 100%, 94%);
+}
+
+.card {
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    background-color: rgb(248, 250, 252);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 450px;
+    height: 80%;
+}
+
+.card-body {
+    width: 70%;
+}
+
+.card-header img {
+    border-radius: 15px;
+}
+
+.descricao {
+    font-weight: 100;
+    color: hsl(0, 0%, 59%);
+    margin-top: -10px;
+}
+
+.card-content {
+    background-color: hsl(0, 0%, 91%);
+    border-radius: 15px;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    gap: 10px;
+}
+
+.change {
+    text-align: right;
+    margin: right;
+    margin-left: 60px;
+}
+
+.informacoes,
+.icone {
+    margin: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    width: 85%;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+.cancelar {
+    font-weight: 600;
+    font-family: 'Red Hat Display', sans-serif;
+    color: hsl(0, 0%, 59%);
+    width: auto;
+    margin: auto;
+    background-color: rgb(248, 250, 252);
+    border: none;
+    justify-content: center;
+}
+
+.pagamento {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    color: aliceblue;
+    background-color: hsl(249, 83%, 45%);
+    border-radius: 15px;
+    height: 45px;
+    width: 80%;
+    margin: auto;
+}
+
+.pagamento:hover {
+    background-color: hsl(249, 53%, 49%)
+}
+
+.cancelar:hover {
+    text-decoration: underline;
+}
+
+.bchange {
+    background: hsl(0, 0%, 91%);
+    border: none;
+    font-weight: 600;
+    color: hsl(249, 89%, 41%);
+}
+
+.bchange:hover {
+    text-decoration: underline;
+}
